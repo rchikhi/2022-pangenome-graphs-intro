@@ -65,3 +65,9 @@ Compact the (minimizer-space) de Bruijn graph:
 Reincorporate bases in mdBG:
 
     ../tools/to_basespace -g graph-k10-d0.001-l12.u.gfa -s graph-k10-d0.001-l12
+
+## Commands for demo
+
+Change prompt:
+
+    export PS1="\e[0;36mpangenomics\e[0m$ "

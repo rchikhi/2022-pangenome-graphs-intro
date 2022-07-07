@@ -11,6 +11,7 @@ We'll show how some common pangenome graphs can be constructed in practice, on a
 ## Data
 
 Data is two E. coli genomes, present in the `data/` folder.
+Another dataset with a megabase-long inversion is present in the `data_with_inversion/` folder.
 
 ## de Bruijn graph
 
@@ -46,6 +47,8 @@ Further simplify by removing bubbles:
     gfatools asm -b 1000 -u two_ecolis.gfa > two_ecolis.bu.gfa
     gfatools asm -b 1000 -u two_ecolis.smooth.gfa > two_ecolis.smooth.bu.gfa
 
+However, after discussions with Erik Garrison, it would be better to just run `pggb` instead of `seqwish`+`smoothxg`, to automatically tweaks the parameters of `smoothxg`.
+
 ## Minigraph
 
 Construct by aligning o157 on the K12 reference using [minigraph](https://github.com/lh3/minigraph):
@@ -70,4 +73,4 @@ Reincorporate bases in mdBG:
 
 Change prompt:
 
-    export PS1="\e[0;36mpangenomics\e[0m$ "
+    export PS1="\[\e[0;36m\]pangenomics\[\e[0m\]$ "

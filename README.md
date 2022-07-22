@@ -1,8 +1,8 @@
 # 2022-pangenome-graphs-intro
 
-Lecture given at the "Introduction to Pan-genomics" workshop, Lake Como School of Advanced Studies, July 4-8, 2022.
+Lecture given at the CGSI, UCLA, July 23 2022.
 
-Slides: https://docs.google.com/presentation/d/1kf0DGkjrt6kCmGZ9h6-PExMjfQSALwoGVdOp2WNT9wI/edit?usp=sharing
+Slides: https://docs.google.com/presentation/d/1KBckpDnKlDZpvRktt_RSAxUCTcOA9n83ERkDqNo3JKs/edit?usp=sharing
 
 ## Rationale
 
@@ -11,7 +11,6 @@ We'll show how some common pangenome graphs can be constructed in practice, on a
 ## Data
 
 Data is two E. coli genomes, present in the `data/` folder.
-Another dataset with a megabase-long inversion is present in the `data_with_inversion/` folder.
 
 ## de Bruijn graph
 
@@ -73,4 +72,4 @@ Reincorporate bases in mdBG:
 
 Change prompt:
 
-    export PS1="\[\e[0;36m\]pangenomics\[\e[0m\]$ "
+    export PS1="\[\e[0;36m\]pangenomics:\W\[\e[0m\]$ "

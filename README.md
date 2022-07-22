@@ -1,6 +1,6 @@
 # 2022-pangenome-graphs-intro
 
-Lecture given at the CGSI, UCLA, July 23 2022.
+Lecture given at the CGSI, UCLA, July 22nd 2022.
 
 Slides: https://docs.google.com/presentation/d/1KBckpDnKlDZpvRktt_RSAxUCTcOA9n83ERkDqNo3JKs/edit?usp=sharing
 

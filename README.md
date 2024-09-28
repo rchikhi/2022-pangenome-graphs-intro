@@ -4,6 +4,8 @@ Lecture given at the CGSI, UCLA, July 22nd 2022.
 
 Slides: https://docs.google.com/presentation/d/1KBckpDnKlDZpvRktt_RSAxUCTcOA9n83ERkDqNo3JKs/edit?usp=sharing
 
+Video: https://www.youtube.com/watch?v=ve07C4hY94Y
+
 ## Rationale
 
 We'll show how some common pangenome graphs can be constructed in practice, on a simple example. 
